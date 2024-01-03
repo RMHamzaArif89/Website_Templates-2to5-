@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+    <link rel="shortcut icon" href="/images/img-4.jpg" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-bar {
+            width: 100%;
+            height: 110px;
+        }
+
+        .h {
+
+            width: 100px;
+            height: 35px;
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 10px;
+            margin: 1.8%;
+        }
+
+        .h1 {
+            float: left;
+        }
+
+        .h2 {
+            float: right;
+        }
+
+        .h:hover {
+            background: #d4d1d1da;
+        }
+
+
+
+
+
+
+
+
+
+        div.container-img {
+            width: 100%;
+            height: 1300px;
+        }
+
+
+        div.l {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+
+        div.l div.img-1 {
+            width: 100%;
+            height: 28%;
+        }
+
+        div.img-1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div.l div.img-2 {
+            width: 100%;
+            height: 34%;
+        }
+
+        div.img-2 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div.l div.img-3 {
+            width: 100%;
+            height: 38%;
+        }
+
+        div.img-3 img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+
+
+
+
+        div.r {
+            width: 50%;
+            height: 100%;
+            float: right;
+        }
+
+        div.r div.img-r1 {
+            width: 100%;
+            height: 35%;
+
+        }
+
+        div.img-r1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div.r div.img-r2 {
+            width: 100%;
+            height: 65%;
+
+        }
+
+        div.img-r2 img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+
+
+
+
+
+
+
+        div.con-c {
+            width: 100%;
+            height: 1100px;
+            display: flex;
+
+            align-items: center;
+            flex-direction: column;
+        }
+
+        div.text-1 {
+            width: 8%;
+            height: 5%;
+            text-align: center;
+            margin: 2%;
+
+        }
+
+        div.text-1 .h1 {
+            font-size: 2em;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0.6%;
+        }
+
+        div.con-img {
+            width: 20%;
+            height: 25%;
+        }
+
+        div.con-img img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div .con-p {
+            width: 40%;
+            height: 10%;
+            margin: 1%;
+            font-size: 1em;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+        }
+
+        div.con-line {
+            width: 20%;
+            height: 5%;
+            padding: 1%;
+            text-align: center;
+            
+        }
+
+        div.con-line .h2 {
+            color: red;
+            font-size: 1em;
+        }
+
+        div.form {
+            width: 70%;
+            height: 45%;
+            background-image: url('/images/img-con-c.jpg');
+            background-size: 100% 100%;
+            background-position:center;
+        }
+        
+        @media  screen and (max-width:440px) {
+            body{
+                font-size: 3px;
+                word-spacing: normal;
+            }
+            
+        }
+
+
+
+        @media screen and (max-width:640px) {
+            body {
+                background: rgba(223, 179, 97, 0.596);
+                font-size: 6px;
+                word-spacing: normal;
+            }
+
+            div.container-img {
+                height: 1400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+            }
+
+            div.l {
+                width: 90%;
+                height: 50%;
+                float: none;
+
+
+            }
+
+            div.r {
+                width: 100%;
+                height: 50%;
+                float: none;
+
+            }
+
+            div.con-img {
+                width: 30%;
+                height: 30%;
+            }
+           
+
+        }
+
+
+        @media  screen and (max-width:840px) {
+           body{
+            font-size: 12px;
+           }            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="h1 h">MY ART</div>
+        <div class="h2 h">About</div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-img">
+        <div class="l">
+            <div class="img-1 img-s"><img src="/images/img-m.jpg" alt=""></div>
+            <div class="img-2 img-s"><img src="/images/img-m4.jpg" alt=""></div>
+            <div class="img-3 img-s"><img src="/images/img-m1.jpg" alt=""></div>
+
+        </div>
+
+
+
+        <div class="r">
+            <div class="img-r1 img-s">
+                <img src="/images/img-l.jpg" alt="">
+
+            </div>
+            <div class="img-r2 img-s">
+                <img src="/images/img-4.jpg" alt="">
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="con-c">
+        <div class="text-1">
+            <p class="h1">About</p>
+        </div>
+
+
+        <div class="con-img"><img src="/images/img-6.jpg" alt=""></div>
+
+
+        <div class="con-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo perferendis laudantium
+            dolor ex possimus, suscipit quibusdam hic consequuntur error. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Autem ipsam provident nesciunt?</div>
+
+
+        <div class="con-line">
+            <p class="h2">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+
+
+        <div class="form">
+            <form action="">
+
+            </form>
+        </div>
+
+
+        <div class="footer"></div>
+
+
+    </div>
+</body>
+
+</html>
