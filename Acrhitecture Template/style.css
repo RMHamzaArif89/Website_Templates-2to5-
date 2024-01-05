@@ -1,0 +1,552 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-l {
+    float: left;
+    width: 12%;
+    height: 30%;
+    margin: 1%;
+    padding: 1%;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(97, 95, 95);
+
+}
+
+.nav-l:hover {
+    background: #d3d0d0d2;
+    opacity: 0.8;
+}
+
+.nav-r {
+    float: right;
+    width: 30%;
+
+}
+
+.nav-r li {
+    list-style: none;
+    margin: 3%;
+    padding: 3%;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.nav-r li:hover {
+    background: #d3d0d0d2;
+    opacity: 0.8;
+}
+
+.nav-r li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 111, 111);
+
+}
+
+.rm {
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.container-1 {
+    width: 100%;
+    height: 756px;
+    background-image: url('/images/img-3.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.con-1p {
+    width: 24%;
+    height: 10%;
+    position: absolute;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(158, 158, 158, 0.945);
+}
+
+.rm-2 {
+    font-size: 2.2rem;
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 15%;
+    height: 10%;
+    padding: 3%;
+    color: rgba(255, 255, 255, 0.849);
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-2 {
+    width: 100%;
+    height: 660px;
+    background: darkcyan;
+}
+
+.con-2p {
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.p-2 {
+    margin: 2%;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.con-2p hr {
+    width: 96%;
+    background: rgba(255, 255, 255, 0.26);
+    margin-left: 2%;
+    opacity: 0.3;
+
+
+}
+
+
+div.con2-row1 {
+    width: 97%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.5%;
+}
+div.row .img{
+    width: 23%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.img-21 {
+    background-image: url('/images/img-h1.jpg');
+   
+}
+
+div.img-22 {
+    background-image: url('/images/img-h2.jpg');
+}
+
+div.img-23 {
+    background-image: url('/images/img-h3.jpg');
+}
+
+div.img-24 {
+    background-image: url('/images/img-h4.jpg');
+    
+}
+
+
+
+
+
+
+
+
+
+
+div.con2-row2 {
+    width: 97%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.5%;
+}
+div.img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+div.img-211 {
+   
+    background-image: url('/images/barn-h1.jpg');
+
+    
+}
+
+div.img-212 {
+    background-image: url('/images/img-h10.jpg');
+}
+
+div.img-213 {
+    background-image: url('/images/img-h7.jpg');
+}
+
+div.img-214 {
+    background-image: url('/images/img-h8.jpg');
+}
+
+
+
+
+.img-h {
+    width: 7%;
+    height: 3.5%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 0.6%;
+    position: absolute;
+    font-size: 0.8rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.container-3 {
+    width: 100%;
+    height: 660px;
+    
+}
+
+.con-3p {
+    width: 100%;
+    height: 200px;
+    background: white;
+}
+
+.p-3p {
+    margin: 2%;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.con-3p hr {
+    width: 96%;
+    background: rgba(255, 255, 255, 0.26);
+    margin-left: 2%;
+    opacity: 0.3;
+
+
+}
+
+
+
+
+
+
+.con3-row {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.con3-col {
+    width: 22%;
+    height: 100%;
+   background: white;
+
+}
+
+.con3-col .img-1{
+    width: 100%;
+    height: 50%;
+    background: url('/images/img-a1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.con3-col .img-2{
+    width: 100%;
+    height: 50%;
+    background: url('/images/img-a2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.con3-col .img-3{
+    width: 100%;
+    height: 50%;
+    background: url('/images/img-a3.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.con3-col .img-4{
+    width: 100%;
+    height: 50%;
+    background: url('/images/img-a4.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.con3-col h4{
+    margin: 3%;
+    font-size: 1.5rem;
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.con3-col .s-text{
+    color: rgba(151, 149, 149, 0.822);
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2%;
+}
+.con3-col .text{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.con3-col .button{
+    width: 92%;
+    height: 3.5%;
+    background: #dddbdb88;
+    padding: 4%;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4.6%;
+    
+}
+.con3-col .button:hover{
+    background: #afaeae80;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-4{
+width: 100%;
+height: 500px;
+background: orange;
+}
+
+
+
+.con-4p {
+    width: 100%;
+    height: 85px;
+    background: white;
+}
+
+.p-4 {
+    margin: 2%;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.con-4p hr {
+    width: 96%;
+    background: rgba(255, 255, 255, 0.26);
+    margin-left: 2%;
+    opacity: 0.3;
+
+
+}
+
+
+.con4-text{
+    margin: 0.5% 2%;
+    font-size: 1rem;
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+html{
+    font-size: 8px;
+}.nav-bar{
+    height: 50px;
+}
+.container-2 {
+    width: 100%;
+    height: 1000px;
+    background: darkcyan;
+}
+
+div.con2-row1 {
+    width: 98%;
+    height: 44%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+}
+div.con2-row2 {
+    width: 98%;
+    height: 44%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+}div.row .img{
+    width: 60%;
+    height: 25%;
+    
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width:768px) {
+html{
+    font-size: 9px;
+}.nav-bar{
+    height: 50px;
+}.container-2 {
+    width: 100%;
+    height: 1200px;
+    background: darkcyan;
+}
+
+div.con2-row1 {
+    width: 98%;
+    height: 44%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+div.con2-row2 {
+    width: 98%;
+    height: 44%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: 1%;
+}div.row .img{
+    width: 60%;
+    height: 24%;
+    
+    
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media(max-width:992px) {
+html{
+    font-size: 10px;
+}
+.nav-bar{
+    height: 60px;
+}.container-2 {
+    width: 100%;
+    height: 1400px;
+    background: darkcyan;
+}
+
+div.con2-row1 {
+    width: 98%;
+    height: 44%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+div.con2-row2 {
+    width: 98%;
+    height: 44%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: 1%;
+}div.row .img{
+    width: 60%;
+    height: 24%;
+    
+    
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+html{
+    font-size: 12px;
+}
+.nav-bar{
+    height: 65px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
